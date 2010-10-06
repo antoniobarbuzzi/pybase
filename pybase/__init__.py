@@ -4,5 +4,3 @@ __version__ = '.'.join([str(v) for v in __version_info__])
 from pybase.htable import *
 from pybase.connection import *
 
-#from cassandra.ttypes import ConsistencyLevel, InvalidRequestException, \
-#    NotFoundException, UnavailableException, TimedOutException
